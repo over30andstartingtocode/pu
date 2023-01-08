@@ -1,0 +1,72 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    order: 1;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    order: 2;
+  }
+  
+  .menu a {
+    display: block;
+  }
+  
+  @media (min-width: 480px) {
+    .nav {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .logo {
+      order: 1;
+    }
+  
+    .menu {
+      order: 2;
+    }
+  
+    .menu a {
+      display: inline-block;
+    }
+  }
+  form label,
+  form input,
+  form select {
+    display: flex;
+    align-items: center;
+  }
+  
+  form label {
+    width: 100px;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  
+  form input,
+  form select {
+    flex: 1;
+  }
+  main img {
+    width: 100%;
+  }
+  @media (min-width: 480px) {
+    /* Other styles */
+  
+    /* About */
+    #about {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    #about img {
+      width: 45%;
+        
